@@ -9,58 +9,45 @@
 
 </head>
 <body>
-    <h1>Survey Page 2</h1>
+    <h1>Iowa City Survey</h1>
     <img src="./images/IowaCityDPM.jpeg" width="333" height="200" alt="Image Unavailable">
     <form>
         <div>
-        <label for="music">What do you use to listen to music?:
-            <select name="music" id="music">
-                <option value="spotify">Spotify</option>
-                <option value="appleMusic">Apple Music</option>
-                <option value="soundcloud">SoundCloud</option>
+            <label for="Semester Hours">How many semester hours are you currently taking?:
+                <select name="Semester" id="Semester">
+                    <option value="0-6">0-6</option>
+                    <option value="7-12">7-12</option>
+                    <option value="13-15">13-15</option>
+                    <option value="16-17">16-17</option>
+                    <option value="18+">18+ +</option>
+                </select>
+            </label>
+            </div>
+        <div>
+            <p></p>
+            <label for="Restauant">What is your favorite Iowa City restaurant?:
+            <select name="Restauant" id="Restauant">
+                <option value="Basta">Basta</option>
+                <option value="BurchTavern">St. Burch Tavern</option>
+                <option value="Mickys">Micky's</option>
+                <option value="Pullman">Pullman</option>
+                <option value="Quintons">Quinton's</option>
+                <option value="Vue">The Vue</option>
+                <option value="Pancheros">Pancheros</option>
                 <option value="other">Other</option>
             </select>
         </label>
         </div>
-        <p> </p>
-
-        <div>
-            <label for="streaming">What is your favorite streaming service?:
-                <select name="streaming" id="streaming">
-                    <option value="netflix">Netflix</option>
-                    <option value="hulu">Hulu</option>
-                    <option value="HBO">HBO</option>
-                    <option value="prime">Prime Video</option>
-                    <option value="disney">Disney +</option>
-                    <option value="other">Other</option>
-                </select>
-            </label>
-            </div>
             <p> </p>
-
-            <div>
-                <label for="streaming2">What is your 2nd favorite streaming service?:
-                    <select name="streaming2" id="streaming2">
-                        <option value="netflix">Netflix</option>
-                        <option value="hulu">Hulu</option>
-                        <option value="HBO">HBO</option>
-                        <option value="prime">Prime Video</option>
-                        <option value="disney">Disney +</option>
-                        <option value="other">Other</option>
-                    </select>
-                </label>
-                </div>
-                <p> </p>
-
                 <div>
-                    <label for="socialMedia">What social media platform do you use the most?:
-                        <select name="socialMedia" id="socialMedia">
-                            <option value="twitter">Twitter</option>
-                            <option value="instagram">Instagram</option>
-                            <option value="tiktok">TikTok</option>
-                            <option value="snap">Snapchat</option>
-                            <option value="facebook">Facebook</option>
-                            <option value="linkedIn">LinkedIn</option>
+                    <label for="Bar">What is your favorite Iowa City bar?:
+                        <select name="Bar" id="Bar">
+                            <option value="Airliner">Airliner</option>
+                            <option value="Brothers">Brothers</option>
+                            <option value="Summit">Summit</option>
+                            <option value="DCs">DCs</option>
+                            <option value="Elrays">Elrays</option>
+                            <option value="SpoCo">SpoCo</option>
                             <option value="other">Other</option>
                         </select>
                     </label>
@@ -68,37 +55,38 @@
                     <p> </p>
 
                     <div>
-                        <label for="socialMedia2">What social media platform do you use the least?:
-                            <select name="socialMedia2" id="socialMedia2">
-                                <option value="twitter">Twitter</option>
-                                <option value="instagram">Instagram</option>
-                                <option value="tiktok">TikTok</option>
-                                <option value="snap">Snapchat</option>
-                                <option value="facebook">Facebook</option>
-                                <option value="linkedIn">LinkedIn</option>
+                        <label for="Bar2">What is your least favorite Iowa City bar?:
+                            <select name="Bar2" id="Bar2">
+                                <option value="Airliner">Airliner</option>
+                                <option value="Brothers">Brothers</option>
+                                <option value="Summit">Summit</option>
+                                <option value="DCs">DCs</option>
+                                <option value="Elrays">Elrays</option>
+                                <option value="SpoCo">SpoCo</option>
                                 <option value="other">Other</option>
                             </select>
                         </label>
                         </div>
                         <p> </p>
                         <div>
-                        <label for="phone">What type of phone do you use?:
-                            <select name="phone" id="phone">
-                                <option value="iphone">iPhone</option>
-                                <option value="android">Android</option>
-                                <option value="samsung">Samsung</option>
-                                <option value="google">Google</option>
+                        <label for="campus">What is your favorite campus building?:
+                            <select name="campus" id="campus">
+                                <option value="Tippie">Tippie</option>
+                                <option value="IMU">IMU</option>
+                                <option value="Library">Main Library</option>
+                                <option value="CRWC">CRWC</option>
+                                <option value="Pentacrest">Pentacrest Buildings</option>
                                 <option value="other">Other</option>
                             </select>
                         </label>
                         </div>
                         <p> </p>
                         <div>
-                            <label for="browser">Which web browser do you prefer to use?:
-                                <select name="browser" id="browser">
-                                    <option value="safari">Safari</option>
-                                    <option value="chrome">Google Chrome</option>
-                                    <option value="edge">Microsoft Edge</option>
+                            <label for="coffee">What is your favorite coffee shop?:
+                                <select name="coffee" id="coffee">
+                                    <option value="Starbucks">Starbucks</option>
+                                    <option value="Dunkin">Dunkin' Donuts</option>
+                                    <option value="Javahouse">Javahouse</option>
                                     <option value="other">Other</option>
                                 </select>
                             </label>
@@ -106,7 +94,7 @@
                             <p> </p>
     </form>
 <p>
-    <button onclick="window.location.href='./thankYou.html';">
+    <button onclick="window.location.href='./thank-you.html';">
     Submit:
     </button>
 </p>
