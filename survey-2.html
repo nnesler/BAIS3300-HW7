@@ -12,6 +12,8 @@
     <h1>Iowa City Survey</h1>
     <img src="./images/IowaCityDPM.jpeg" width="333" height="200" alt="Image Unavailable">
     <form>
+        <fieldset>
+            <legend>Preferences</legend>
         <div>
             <label for="Semester Hours">How many semester hours are you currently taking?:
                 <select name="Semester" id="Semester">
@@ -91,7 +93,22 @@
                                 </select>
                             </label>
                             </div>
+                        <div>
+                            <p>
+                                Which of the following activities do you complete every week?
+                            </p>
+                            <input type="checkbox" id="activity1" name="activity1" value="Workout">
+                            <label for="activity1"> I workout</label><br>
+                            <input type="checkbox" id="activity2" name="activity2" value="Eat">
+                            <label for="activity2"> I go out to eat</label><br>
+                            <input type="checkbox" id="activity3" name="activity3" value="sports">
+                            <label for="activity3"> I attend a sporting event</label><br>
+                            <input type="checkbox" id="activity4" name="activity4" value="club">
+                            <label for="activity4"> I attend a club meeting</label><br>
+                            </div>
+                            </fieldset>
                             <p> </p>
+                        </fieldset>
     </form>
 <p>
     <button onclick="window.location.href='./thank-you.html';">
