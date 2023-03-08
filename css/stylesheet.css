@@ -1,3 +1,99 @@
-body{
-    background-color: whitesmoke;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
 }
+
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+input[type="checkbox"]:focus + label,
+input[type="radio"]:focus + label {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: black;
+}
+
+input[type="checkbox"]:invalid + label,
+input[type="radio"]:invalid + label {
+  color: black;
+}
+
+input:focus:invalid,
+select:focus:invalid,
+textarea:focus:invalid {
+  outline: none;
+  box-shadow: 0 0 0 2px black;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: black;
+}
+
+input[type="checkbox"]:valid + label,
+input[type="radio"]:valid + label {
+  color: black;
+}
+
+input:focus:valid,
+select:focus:valid,
+textarea:focus:valid {
+  outline: none;
+  box-shadow: 0 0 0 2px black;
+}
+
+.error-message {
+  color: black;
+  font-size: 14px;
+}
+
+.instructions {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
